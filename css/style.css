@@ -81,3 +81,11 @@ button, .btn-delete {
 ul {
   list-style-type: none;
 }
+.card-placeholder {
+  background-color: transparent;
+  border: 2px black dotted;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: -15px;
+  margin-right: 15px;
+}
