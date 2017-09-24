@@ -1,0 +1,18 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "Kanban table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kanban"
+  ],
+  "author": "mgrobelny",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}

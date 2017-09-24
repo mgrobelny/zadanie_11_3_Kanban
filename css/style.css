@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  background-image: url(http://www.freeppt.net/background/textures-notebook-paper-wallpapers-backgrounds-for-powerpoint.jpg);
+  background-size: 100%;
+  margin: 30px 30px;
+}
+
+button, .btn-delete {
+  cursor: pointer;
+}
+.column, .board {
+  background-color: #fafccf;
+  -webkit-box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 11px 1px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  /*border: 2px solid darkgray;*/
+}
+.column {
+  display: inline-block;
+  width: 30.9%;
+  float: left;
+  padding: 10px;
+  margin: 0 5px 20px 5px;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+}
+.board {
+  padding: 10px;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 30px;
+  height: auto;
+}
+.board h1 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.create-column, .add-card {
+  background-color: #f46842;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  font-size: 16px;
+}
+.create-column, .add-card, .btn-delete {
+  font-family: 'Permanent Marker', cursive;
+}
+.create-column {
+  margin-bottom: 10px;
+}
+.btn-delete {
+  background-color: transparent;
+  float: right;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: none;
+  font-size: 20px;
+}
+.card {
+  position: relative;
+  background-color: yellow;
+  height: auto;
+  -webkit-box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  box-shadow: 2px 3px 11px -2px rgba(0,0,0,0.75);
+  left: -15px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+}
