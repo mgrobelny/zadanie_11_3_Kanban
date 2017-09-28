@@ -30,6 +30,9 @@ button, .btn-delete {
   position: relative;
   font-size: 22px;
 }
+.column-card-list {
+  min-height: 50px;
+}
 .board {
   padding: 10px;
   margin: 5px 5px;
